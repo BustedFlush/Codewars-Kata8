@@ -1,0 +1,8 @@
+import string
+alph = string.ascii_lowercase
+nums = range(1,27)
+mydic = dict(zip(alph,nums))
+              
+def position(x):
+           
+    return(x + "Position of alphabet"  + str(mydic[x]))
